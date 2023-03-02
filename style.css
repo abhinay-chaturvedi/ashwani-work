@@ -1,0 +1,333 @@
+
+*{
+    margin: 0px;
+}
+.trade{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(236, 246, 243);
+
+}
+.tradeWrapper{
+    width: 100%;
+    max-width: 1324px;
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.twDesc{
+    color: rgba(8, 8, 130, 0.818);
+    font-weight: bolder;
+    font-size: 44px;
+}
+.twCardContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+      gap: 40px;
+      /* padding: 10px; */
+      /* background-color: rgba(189, 186, 205, 0.192); */
+}
+.twCard{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+   /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;; */
+   /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.twCardText>h1{
+  font-weight: bold;
+  color: rgb(195, 133, 133);
+}
+.twCardText>span{
+  font-weight: bold;
+  font-size: 18px;
+  opacity: .8;
+  margin: 5px 0px;
+}
+.twCardText>button{
+    font-weight: bold;
+    color: green;
+    font-size: 18px;
+    background-color: white;
+    border: none;
+  }
+.twCardText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: flex-start;
+    /* flex: 3; */
+
+}
+.twCardImg{
+    object-fit: cover;
+    /* flex: 2; */
+    margin: 5px;
+    height: 100%;
+    max-height: 200px;
+
+}
+.product{
+    display: flex;
+    justify-content: center;
+}
+.productWrapper{
+    width: 100%;
+    max-width: 1324px;
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    gap: 20px;
+}
+.productHeading{
+    font-weight: bold;
+    font-size: 44px;
+    color: rgb(3, 3, 90);
+}
+.productNav{
+    margin: 5px 0px;
+}
+.navList{
+    display: flex;
+    gap: 30px;
+    padding: 0px;
+    margin: 5px 3px;
+    list-style: none;
+    align-items: center;
+}
+.navListItem{
+    font-size: 24px;
+     cursor: pointer;
+     font-weight: bold;
+     color: rgb(67, 44, 44);
+}
+.navListItem.active{
+    font-size: 24px;
+     cursor: pointer;
+     font-weight: bold;
+     background-color: blue;
+     padding: 10px;
+     border-radius: 5px;
+     color: white;
+}
+.productDet{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.productDetDesc{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+}
+.productDetDesc>span{
+   font-size: 24px;
+}
+.productDetDesc>button{
+    font-weight: bold;
+    color: green;
+    font-size: 24px;
+    background-color: white;
+    border: none;
+}
+.learnings{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(236, 246, 243);
+}
+.lWrapper{
+    width: 100%;
+    max-width: 1324px;
+    margin: 80px 0px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    border-left: 12px solid green;
+    border-radius: 5px;
+}
+.lTitle{
+    font-weight: bolder;
+    color: rgb(6, 6, 63);
+    font-size: 44px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.lDesc{
+    font-weight: 500;
+    font-size: 20px;
+   color: rgb(93, 93, 84);
+}
+.lCardContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.lCard{
+    width: 24%;
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.lCard>h1{
+    text-align: center;
+}
+.lCard>button{
+    font-weight: bold;
+    color: green;
+    font-size: 18px;
+    background-color: white;
+    border: none;
+}
+.lCard>img{
+    width: 100%;
+    object-fit: cover;
+}
+.platforms{
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(236, 246, 243); */
+}
+.pWrapper{
+    width: 100%;
+    max-width: 1324px;
+    margin: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+}
+.pCardContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.pCard{
+    width: 27%;
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 10px;
+}
+.pTitle{
+    font-weight: bolder;
+    color: rgb(6, 6, 63);
+    font-size: 44px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.pDesc{
+    font-weight: 500;
+    font-size: 20px;
+   color: rgb(93, 93, 84);
+}
+.pCard>img{
+    width: 100%;
+    object-fit: cover;
+}
+.pCard>h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    
+}
+.pCard>button{
+    font-weight: bold;
+    color: rgb(31, 11, 83);
+    font-size: 24px;
+    border-radius: 5px;
+    background-color: rgb(162, 125, 125);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.tools{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(236, 246, 243);
+}
+.tWrapper{
+    width: 100%;
+    max-width: 1324px;
+    margin: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    border-right: 12px solid green;
+    border-radius: 10px;
+    padding: 15px;
+}
+.tTitle{
+    font-size: 64px;
+    color: rgb(3, 3, 102);
+}
+.tBtn{
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: bold;
+    color: brown;
+}
+.tDetails{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.tTextContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+}
+.tText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.tText>h1{
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(99, 27, 27);
+}
+.tText>span{
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(155, 104, 104);
+}
